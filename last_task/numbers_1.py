@@ -25,7 +25,7 @@ def check_age():
         raise ValueError("Yosh 18 dan kichik bo'lishi mumkin emas")
 
     first_max_experience = age - 18
-    max_experience = first_max_experience if first_max_experience > 0 else 2
+    max_experience = first_max_experience  if first_max_experience > 0 else 2
     if experience <= max_experience:
         print(f"Tajriba mos keldi: {experience}")
         return experience

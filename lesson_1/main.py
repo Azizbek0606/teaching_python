@@ -1,0 +1,2 @@
+text = 'azizbek'
+print(text)
